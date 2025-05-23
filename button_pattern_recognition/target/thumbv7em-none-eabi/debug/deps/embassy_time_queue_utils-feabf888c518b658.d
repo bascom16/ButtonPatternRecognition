@@ -1,7 +1,0 @@
-/Users/brianbascom/MAGICC/ButtonPatternRecognition/button_pattern_recognition/target/thumbv7em-none-eabi/debug/deps/libembassy_time_queue_utils-feabf888c518b658.rmeta: /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/lib.rs /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/queue_integrated.rs /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/../README.md
-
-/Users/brianbascom/MAGICC/ButtonPatternRecognition/button_pattern_recognition/target/thumbv7em-none-eabi/debug/deps/embassy_time_queue_utils-feabf888c518b658.d: /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/lib.rs /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/queue_integrated.rs /Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/../README.md
-
-/Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/lib.rs:
-/Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/queue_integrated.rs:
-/Users/brianbascom/.cargo/registry/src/index.crates.io-6f17d22bba15001f/embassy-time-queue-utils-0.1.0/src/../README.md:

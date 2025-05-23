@@ -1,5 +1,0 @@
-/Users/brianbascom/MAGICC/ButtonPatternRecognition/button_pattern_recognition/target/debug/build/button_pattern_recognition-20f1a509679675db/build_script_build-20f1a509679675db: build.rs
-
-/Users/brianbascom/MAGICC/ButtonPatternRecognition/button_pattern_recognition/target/debug/build/button_pattern_recognition-20f1a509679675db/build_script_build-20f1a509679675db.d: build.rs
-
-build.rs:
