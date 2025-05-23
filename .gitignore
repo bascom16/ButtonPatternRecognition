@@ -1,5 +1,5 @@
 # Rust/Cargo
-/target
+target/
 **/*.rs.bk
 
 # Build scripts and artifacts
@@ -16,4 +16,4 @@
 .vscode/
 
 # By default, Cargo also generates these:
-Cargo.lock
+button_pattern_recognition/Cargo.lock
