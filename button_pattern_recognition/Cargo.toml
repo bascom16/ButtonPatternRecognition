@@ -15,8 +15,10 @@ embassy-futures = "0.1.1"
 embassy-stm32 = { version = "0.2.0", features = ["memory-x", "stm32h753zi", "time-driver-any", "exti", "unstable-pac"] }
 embassy-sync = "0.6.2"
 embassy-time = { version = "0.4.0", features = ["tick-hz-32_768"] }
+embassy-usb = "0.1.0"
 panic-halt = "1.0.0"
 panic-probe = { version = "1.0.0", features = ["print-defmt"], optional = true }
+
 
 [[bin]]
 name = "button_pattern_recognition"

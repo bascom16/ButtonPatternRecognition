@@ -1,0 +1,19 @@
+# Rust/Cargo
+/target
+**/*.rs.bk
+
+# Build scripts and artifacts
+/build.rs
+/build/
+*.d
+*.o
+*.rlib
+*.so
+*.dll
+*.exe
+
+# VSCode settings (optional)
+.vscode/
+
+# By default, Cargo also generates these:
+Cargo.lock

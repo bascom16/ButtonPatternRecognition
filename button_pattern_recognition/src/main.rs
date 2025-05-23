@@ -3,6 +3,8 @@
 
 mod fmt;
 mod button_state;
+mod detection;
+mod output;
 
 #[cfg(not(feature = "defmt"))]
 use panic_halt as _;
@@ -10,20 +12,17 @@ use panic_halt as _;
 use {defmt_rtt as _, panic_probe as _};
 
 use embassy_executor::Spawner;
-use embassy_stm32::gpio::{Level, Output, Speed};
-use embassy_time::{Duration, Timer};
+use embassy_stm32::{exti::ExtiInput, gpio::{Pull}};
+
 use fmt::info;
 
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
     let p = embassy_stm32::init(Default::default());
-    let mut led = Output::new(p.PB7, Level::High, Speed::Low);
+    let button = ExtiInput::new(p.PC13, p.EXTI13, Pull::Down);
 
-    loop {
-        info!("Hello, World!");
-        led.set_high();
-        Timer::after(Duration::from_millis(500)).await;
-        led.set_low();
-        Timer::after(Duration::from_millis(500)).await;
-    }
+    _spawner.spawn(detection::button_detect(button)).unwrap();
+    info!("Button detection started");
+    _spawner.spawn(button_state::button_event_control()).unwrap();
+    info!("Button event control started");
 }
